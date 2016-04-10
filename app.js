@@ -17,8 +17,6 @@ angular.module('routes', ['ngRoute'])
             controller: 'view2Ctrl',
             controllerAs: 'view2'
         }).when('/', {
-            templateUrl: 'view1/template.html',
-            controller: 'view1Ctrl',
-            controllerAs: 'view1'
+            redirectTo: '/view1'
         });
 });
